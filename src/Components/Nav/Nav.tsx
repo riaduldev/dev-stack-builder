@@ -33,7 +33,7 @@ const Nav = () => {
         </div>
 
         {/* Logo - Mobile Center */}
-        <div className="absolute left-1/2 -translate-x-1/2 md:hidden">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden">
           <img
             src={navImg}
             alt="Logo"
