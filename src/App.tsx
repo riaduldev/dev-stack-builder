@@ -5,6 +5,7 @@ import Banner from './Components/Banner/Banner'
 import Nav from './Components/Nav/Nav'
 import type { ITechnology } from './Components/Types/Type';
 import Technologys from './Components/Technology/Technologys';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -27,6 +28,7 @@ const [technologyPromise] = useState(() => technologyFetch());
     <Suspense fallback = {<h1>Loading data ....</h1>}>
     <Technologys technologyPromise = {technologyPromise}></Technologys>
     </Suspense>
+    <Footer></Footer>
     </>
   )
 }
