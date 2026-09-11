@@ -44,7 +44,7 @@ const YourStack = ({
       {stack.length === 0 ? (
         <div className="flex min-h-52 flex-col items-center justify-center text-center">
           <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-gray-100 text-2xl">
-            🧩
+            
           </div>
 
           <h3 className="font-semibold text-gray-700">
