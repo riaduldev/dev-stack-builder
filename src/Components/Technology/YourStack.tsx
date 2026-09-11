@@ -43,13 +43,15 @@ const YourStack = ({
       {/* Empty State */}
       {stack.length === 0 ? (
         <div className="flex min-h-52 flex-col items-center justify-center text-center">
-          <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-gray-100 text-2xl">
-            
-          </div>
-
-          <h3 className="font-semibold text-gray-700">
+        
+<div className="mb-3 flex h-20 w-40 items-center justify-center rounded-2xl border-2 border-dashed border-gray-300 bg-gray-100 text-2xl">
+     <h3 className="text-sm text-gray-400">
             Your stack is empty
           </h3>
+</div>
+
+
+         
 
           <p className="mt-1 max-w-60 text-sm text-gray-400">
             Add technologies from the list to build your development stack.
