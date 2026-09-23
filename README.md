@@ -1,32 +1,85 @@
-# React + TypeScript + Vite
+# 🚀 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive web application that helps developers explore technologies and build their ideal development stack.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[**dev-stack-builder2026.netlify.app**](https://dev-stack-builder2026.netlify.app/)
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Dev Stack Builder Screenshot](/public/project-ss.png)
 
-## Expanding the Oxlint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+**Dev Stack Builder** is a React and TypeScript-based web application where developers can explore different technologies, view their details, and create a personalized development stack.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Users can add technologies to their stack, manage selected technologies, and get instant feedback through toast notifications.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## ✨ Features
+
+* 🔍 Explore different development technologies
+* 🧩 Technologies categorized by type
+* ⭐ Technology ratings and difficulty levels
+* ➕ Add technologies to your stack
+* 🚫 Prevent duplicate technologies
+* 🗑️ Remove technologies from your stack
+* 🧹 Clear the entire stack
+* 🔔 Toast notifications for user actions
+* 📱 Fully responsive design
+* 🎨 Modern gradient-based UI
+* ⚡ Fast and interactive user experience
+
+## 🛠️ Technologies Used
+
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **DaisyUI**
+* **React Icons**
+* **React Toastify**
+* **Vite**
+
+
+### Technology Explorer
+
+Users can browse technologies from different categories such as:
+
+* Frontend
+* Backend
+* Database
+* Language
+* Styling
+* DevOps
+* Tools
+
+### Build Your Stack
+
+Users can select technologies and create their own personalized development stack.
+
+### Stack Management
+
+Selected technologies can be:
+
+* Added
+* Removed
+* Cleared completely
+
+Duplicate technologies are prevented to keep the stack organized.
+
+## 📱 Responsive Design
+
+The application is designed to work smoothly across:
+
+* 📱 Mobile devices
+* 📲 Tablets
+* 💻 Laptops
+* 🖥️ Desktop screens
+
+## 👨‍💻 Author
+
+**Riadul Islam**
+
+### 🔗 Live Project
+
+[**Dev Stack Builder**](https://dev-stack-builder2026.netlify.app/)
